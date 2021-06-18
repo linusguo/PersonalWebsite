@@ -55,7 +55,48 @@ img {
   color:white;
 }
 
+
+
 @media screen and (max-width: 400px) {
-  img {
+  .container_div {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .banner_mobile {
+    display: none;
+  }
+  .navbar_mobile a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .navbar_div a {
+    display: none;
+  }
+  .banner_div {
+    display: none;
+  }
+  .navbar_mobile {
+    position: fixed;
+    background: black;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 2em;
+    overflow: auto;
+  }
+  .navbar_mobile a {
+    float: left;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:white;
   }
 }

@@ -1,0 +1,49 @@
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.container_div {
+  font-size: 1.5em;
+  margin: 40px;
+}
+
+#table {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+th, td {
+  text-align: left;
+}
+
+.blank {
+  height: 40px;
+}
+
+.blank1 {
+  height: 20px;
+}
+
+.aligned {
+  text-align: center;
+}
+
+.narrow {
+  width: 45%
+}
+
+#education {
+  column-span: 2;
+  font-size: 2em;
+}
+
+.degree {
+  column-span: 2;
+  font-weight: bolder;
+}
+
+.period {
+  padding-left: 180px;
+}

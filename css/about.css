@@ -18,7 +18,7 @@ img {
   width: 40%
 }
 /* Style for each section in the table */
-#intro {
+.intro {
   text-align: justify;
 }
 #education {
@@ -38,4 +38,32 @@ img {
 }
 .blank1 {
   height: 20px;
+}
+.blank2 {
+  height: 10px;
+}
+/* Accomodation for smaller screen */
+@media only screen and (min-width: 1050px) {
+  .mobile_content {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .large {
+    display: none;
+  }
+  .container_div {
+    margin: 15px;
+  }
+  img {
+    width: 150px;
+  }
+  .mobile_content {
+    font-size: 0.7em;
+    margin-bottom: 100px;
+  }
+  #mobile_education {
+    font-size: 1.8em;
+    text-align: center;
+  }
 }

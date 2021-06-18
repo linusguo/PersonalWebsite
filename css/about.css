@@ -31,7 +31,7 @@ th, td {
 }
 
 .narrow {
-  width: 45%
+  width: 40%
 }
 
 #education {
@@ -45,5 +45,9 @@ th, td {
 }
 
 .period {
-  padding-left: 180px;
+  padding-left: 150px;
+}
+
+#intro {
+  text-align: justify;
 }

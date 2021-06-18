@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Publication</title>
+    <!-- Set up the initial scale for the webpage -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Import the stylesheets -->
     <link href="../css/index.css" rel="stylesheet">
     <link href="../css/publication.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/jpg" href="../img/favicon.ico">
+    <link href="../css/navbar.css" rel="stylesheet">
+    <!-- Import Google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- Import JQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Import the navbar script -->
     <script src="/js/navbar_script.js"></script>
+    <!-- Import the readmore script -->
     <script src="/js/readmore_script.js"></script>
+    <!-- Import the favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="../img/favicon.ico">
   </head>
 
   <body>
     <div class="container_div">
-
       <table id="table_pub">
         <tr>
           <td class="content">
@@ -97,14 +104,15 @@
         </tr>
       </table>
     </div>
-
-    <div class="navbar_div">
-      <a class="navbar" href="../index.html">Home</a>
-      <a class="navbar" href="about.html">About me</a>
-      <a class="navbar" href="publication.html">Publication</a>
-      <a class="navbar" href="https://www.instagram.com/st_linus/" target="_blank">Instagram</a>
-      <a class="navbar" href="https://www.linkedin.com/in/yusheng-guo-519494104/"  class="link" target="_blank">LinkedIn</a>
-      <a class="navbar" href="mailto:guo.yus@northeastern.edu">Email</a>
+    <!-- The navbar -->
+    <div class="navbar" id="navbar">
+      <a class="navbar_large" href="../index.html">Home</a>
+      <a class="navbar_large" href="about.html">About me</a>
+      <a class="navbar_large" href="publication.html">Publication</a>
+      <a class="navbar_large" href="https://www.instagram.com/st_linus/" target="_blank">Instagram</a>
+      <a class="navbar_large" href="https://www.linkedin.com/in/yusheng-guo-519494104/" target="_blank">LinkedIn</a>
+      <a class="navbar_large" href="mailto:guo.yus@northeastern.edu">Email</a>
+      <a class="mobile">&#9776</a>
     </div>
   </body>
 </html>

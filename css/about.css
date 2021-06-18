@@ -1,53 +1,41 @@
+/* Style for the profile image */
 img {
   width: 300px;
   height: auto;
   border-radius: 50%;
 }
-
-.container_div {
-  font-size: 1.5em;
-  margin: 40px;
+/* Align the profile image at the center */
+.aligned {
+  text-align: center;
 }
-
+/* Style for the table */
 #table {
   width: 100%;
   margin-bottom: 100px;
 }
-
-th, td {
-  text-align: left;
-}
-
-.blank {
-  height: 40px;
-}
-
-.blank1 {
-  height: 20px;
-}
-
-.aligned {
-  text-align: center;
-}
-
+/* Width for the right column */
 .narrow {
   width: 40%
 }
-
+/* Style for each section in the table */
+#intro {
+  text-align: justify;
+}
 #education {
   column-span: 2;
   font-size: 2em;
 }
-
 .degree {
   column-span: 2;
   font-weight: bolder;
 }
-
 .period {
   padding-left: 150px;
 }
-
-#intro {
-  text-align: justify;
+/* Height of the blank rows */
+.blank {
+  height: 40px;
+}
+.blank1 {
+  height: 20px;
 }

@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Yusheng's personal website</title>
+    <!-- Set up the initial scale for the webpage -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Import the stylesheets -->
     <link href="css/index.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico">
+    <link href="css/navbar.css" rel="stylesheet">
+    <!-- Import Google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- Import JQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Import the navbar script -->
     <script src="/js/navbar_script.js"></script>
+    <!-- Import the favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="/img/favicon.ico">
   </head>
 
   <body>
+    <!-- Banner image for larger screen -->
     <div class="banner_div">
       <img src="img/banner_compressed.jpg" alt="banner">
     </div>
+    <!-- Cropped banner image for smaller screen -->
     <div class="banner_mobile">
       <img src="img/banner_mobile.jpg" alt="mobile_banner">
     </div>
-
+    <!-- The main container div to hold the main section -->
     <div class="container_div">
-
+      <!-- The welcome section -->
       <div class="welcome_div">
         <h1 id="welcome">Welcome</h1>
       </div>
-
+      <!-- The short intro section -->
       <div class="intro_div">
         <p id="content">
           Welcome to Yusheng's website, as part of the Project 1 in CS5610.
         </p>
       </div>
-
     </div>
-
-    <div class="navbar_div">
-      <a class="navbar" href="index.html">Home</a>
-      <a class="navbar" href="/html/about.html">About me</a>
-      <a class="navbar" href="/html/publication.html">Publication</a>
-      <a class="navbar" href="https://www.instagram.com/st_linus/" target="_blank">Instagram</a>
-      <a class="navbar" href="https://www.linkedin.com/in/yusheng-guo-519494104/" target="_blank">LinkedIn</a>
-      <a class="navbar" href="mailto:guo.yus@northeastern.edu">Email</a>
-    </div>
-
-    <div class="navbar_mobile">
-      <a class="navbar" href="index.html">Home</a>
+    <!-- The navbar -->
+    <div class="navbar" id="navbar">
+      <a class="navbar_large" href="index.html">Home</a>
+      <a class="navbar_large" href="/html/about.html">About me</a>
+      <a class="navbar_large" href="/html/publication.html">Publication</a>
+      <a class="navbar_large" href="https://www.instagram.com/st_linus/" target="_blank">Instagram</a>
+      <a class="navbar_large" href="https://www.linkedin.com/in/yusheng-guo-519494104/" target="_blank">LinkedIn</a>
+      <a class="navbar_large" href="mailto:guo.yus@northeastern.edu">Email</a>
+      <a class="mobile">&#9776</a>
     </div>
   </body>
 </html>

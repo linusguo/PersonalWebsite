@@ -1,25 +1,24 @@
+/* Style for the cover images */
 img {
   width: 400px;
   height: auto;
   float: right;
 }
-
+/* Style for the table */
+#table_pub {
+  margin-bottom: 40px;
+}
+/* Style for each section */
 .content {
   width: 70%;
 }
-
 .title {
   font-weight: bolder;
 }
-
 .intro {
   text-align: justify;
 }
 .link a{
   text-decoration: none;
   color: white;
-}
-
-#table_pub {
-  margin-bottom: 40px;
 }

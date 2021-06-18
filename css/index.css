@@ -3,100 +3,45 @@ body {
   margin: 0;
   padding: 0;
 }
-
 img {
   width: 100%;
   height: auto;
 }
-
+.banner_div {
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
 .container_div {
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 1.5em;
   margin-left: 40px;
 }
-
 .welcome_div {
   margin-block-start: 10px;
   margin-block-end: 10px;
 }
-
 #welcome {
   margin: 0px 0px;
 }
-
 #content {
   margin: 0px 0px;
 }
 
-.banner_div {
-  margin: 0px;
-  width: 100%;
-  height: auto;
-}
-
-.navbar_div {
-  position: fixed;
-  background: black;
-  bottom: 0;
-  width: 100%;
-  padding: 5px;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  font-size: 2em;
-  overflow: auto;
-}
-.navbar_div a {
-  float: left;
-  width: 16.66%;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color:white;
-}
-
-
-
 @media screen and (max-width: 400px) {
   .container_div {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
-
 @media only screen and (min-width: 1050px) {
   .banner_mobile {
     display: none;
   }
-  .navbar_mobile a {
-    display: none;
-  }
 }
-
 @media only screen and (max-width: 1050px) {
-  .navbar_div a {
-    display: none;
-  }
   .banner_div {
     display: none;
   }
-  .navbar_mobile {
-    margin: 0;
-    position: fixed;
-    background: black;
-    bottom: 0;
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    font-size: 2em;
-    overflow: auto;
-  }
-  .navbar_mobile a {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color:white;
 }

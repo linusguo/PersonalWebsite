@@ -1,3 +1,4 @@
 # Personal website-Yusheng Guo
 
-*Heroku link goes here*
+Website deployed on Heroku:
+<personal-website-yusheng.herokuapp.com/index.html>

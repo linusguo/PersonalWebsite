@@ -41,7 +41,7 @@ img {
   img {
     width: 100%;
   }
-  /* Style for each section */
+  /* Style for content on smaller screen */
   .mobile_content {
     font-size: 0.7em;
     margin-bottom: 80px;

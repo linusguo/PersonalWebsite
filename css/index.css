@@ -1,8 +1,10 @@
+/* Style for the background */
 body {
   background-color: black;
   margin: 0;
   padding: 0;
 }
+/* Style for image */
 img {
   width: 100%;
   height: auto;
@@ -12,6 +14,7 @@ img {
   width: 100%;
   height: auto;
 }
+/* Style for each section */
 .container_div {
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -28,18 +31,21 @@ img {
 #content {
   margin: 0px 0px;
 }
-
+/* Accomodation for smaller screen */
 @media screen and (max-width: 400px) {
+  /* Style for content on smaller screen */
   .container_div {
     margin-left: 15px;
     margin-right: 15px;
   }
 }
+/* Hide the original banner on smaller screen */
 @media only screen and (min-width: 1050px) {
   .banner_mobile {
     display: none;
   }
 }
+/* Hide the cropped banner on larger screen */
 @media only screen and (max-width: 1050px) {
   .banner_div {
     display: none;

@@ -1,0 +1,25 @@
+img {
+  width: 400px;
+  height: auto;
+  float: right;
+}
+
+.content {
+  width: 70%;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.intro {
+  text-align: justify;
+}
+.link a{
+  text-decoration: none;
+  color: white;
+}
+
+#table_pub {
+  margin-bottom: 40px;
+}

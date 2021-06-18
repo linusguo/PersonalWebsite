@@ -81,22 +81,22 @@ img {
     display: none;
   }
   .navbar_mobile {
+    margin: 0;
     position: fixed;
     background: black;
     bottom: 0;
     width: 100%;
-    padding: 20px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 2em;
     overflow: auto;
   }
   .navbar_mobile a {
-    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     display: block;
     text-align: center;
     text-decoration: none;
     color:white;
-  }
 }

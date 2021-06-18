@@ -43,21 +43,26 @@ img {
   height: 10px;
 }
 /* Accomodation for smaller screen */
+/* Hide mobile version table for larger screen */
 @media only screen and (min-width: 1050px) {
   .mobile_content {
     display: none;
   }
 }
+/* Hide full size table for smaller screen */
 @media only screen and (max-width: 1050px) {
   .large {
     display: none;
   }
+  /* Set the margin for smaller screen */
   .container_div {
     margin: 15px;
   }
+  /* Resize the profile image */
   img {
     width: 150px;
   }
+  /* Style for each section */
   .mobile_content {
     font-size: 0.7em;
     margin-bottom: 100px;
@@ -65,5 +70,8 @@ img {
   #mobile_education {
     font-size: 1.8em;
     text-align: center;
+  }
+  .degree {
+    font-weight: bolder;
   }
 }

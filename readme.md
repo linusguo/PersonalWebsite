@@ -44,17 +44,19 @@ Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2
 
 ![publication_highlight](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/readmore_highlight.png?raw=true)
 
-* The navbar can be to compact form due to the narrow browser size. The full navbar will pop up if people click the menu button (defaulted as three horizontal lines in `CSS`). I implemented this by using `click` in `Jquery`.
+* The navbar can be to compact form due to the narrow browser size. The full navbar will pop up if people click the menu button (defaulted as three horizontal lines in `CSS`). The links on the compact navbar can also be highlighted if the visitor clicks them. I implemented these by using `click` in `Jquery`.
 
-![mobile_navbar](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_navbar.png?raw=true)
+![mobile_highlight](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_highlight.png?raw=true)
 
 ## Responsiveness
 
 * As discussed before, the website is responsive to the browser size, in order to enhance the readability on devices with smaller screen (less than 1050 px in width). This is achieved by taking advantage of `CSS media query`.
 
+* The banner image on `index.html` will be replaces with a cropped one for better appearance, if the browser is resized into a smaller width (less than 1050px). At the same time, the padding of the text on this page will also be adjusted.
+
 * The navbar will shrink to a compact form as introduced before. The full navigation menu can pop up if the visitor clicks on the menu bar (three horizontal lines on the bottom of the screen).
 
-* The banner image on `index.html` will be replaces with a cropped one for better appearance, if the browser is resized into a smaller width (less than 1050px). At the same time, the padding of the text on this page will also be adjusted.
+![mobile_navbar](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_navbar.png?raw=true)
 
 * The arrangement of `About me` and `Publication` will also be adjusted if the browser is resized into smaller size.
 
@@ -62,3 +64,8 @@ Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2
 
 ![mobile_publication](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_publication.png?raw=true)
 
+## One more thing
+
+* I included a favicon!
+
+![favicon](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/favicon.png?raw=true)

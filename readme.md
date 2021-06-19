@@ -1,11 +1,11 @@
 # Personal website-Yusheng Guo
 
-**Website deployed on Heroku:**
+## Website deployed on Heroku:
 <https://personal-website-yusheng.herokuapp.com/index.html>
 
 Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2021.
 
-### Website structure and contents
+## Website structure and contents
 * This website has a landing page defined in `index.html`, including a welcome message and a minimal information about what this website is. Using the navbar fixed on the bottom of this page, visitors can navigate themselves to other internal and external links.
 
 ![index_screenshot](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/index.png?raw=true)
@@ -22,7 +22,7 @@ Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2
 
 * There are two more external links in the navbar, which can lead people to my `Instagram` and `LinkedIn`. Also, using the link at the end of the navbar, visitors can send an email to me using their default email app.
 
-### The navbar
+## The navbar
 
 * I used the `CSS` styled navbar as the navigation tool throughout this whole website, with a little interactive flavor of `JQuery`. The links will be highlighted when the mouse is hovering above them (discussed in later sections).
 
@@ -34,7 +34,7 @@ Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2
 
 ![mobile_index](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_index.png?raw=true)
 
-### Interactive components
+## Interactive components
 
 * As mentioned before, when the mouse is hovering on the navbar, the corresponding link will be highlighted. And it will go back to normal if the mouse moves away from the link. I implemented this functionality using `JQuery`.
 
@@ -48,4 +48,17 @@ Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2
 
 ![mobile_navbar](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_navbar.png?raw=true)
 
-### Responsiveness
+## Responsiveness
+
+* As discussed before, the website is responsive to the browser size, in order to enhance the readability on devices with smaller screen (less than 1050 px in width). This is achieved by taking advantage of `CSS media query`.
+
+* The navbar will shrink to a compact form as introduced before. The full navigation menu can pop up if the visitor clicks on the menu bar (three horizontal lines on the bottom of the screen).
+
+* The banner image on `index.html` will be replaces with a cropped one for better appearance, if the browser is resized into a smaller width (less than 1050px). At the same time, the padding of the text on this page will also be adjusted.
+
+* The arrangement of `About me` and `Publication` will also be adjusted if the browser is resized into smaller size.
+
+![mobile_aboutme](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_aboutme.png?raw=true)
+
+![mobile_publication](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_publication.png?raw=true)
+

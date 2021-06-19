@@ -28,6 +28,9 @@ img {
   .mobile_content {
     display: none;
   }
+  .intro {
+    padding-right: 15px;
+  }
 }
 /* Hide full size table for smaller screen */
 @media only screen and (max-width: 1050px) {
@@ -55,5 +58,8 @@ img {
   }
   .mobile_pub {
     padding: 15px;
+  }
+  .intro {
+    padding-right: 0;
   }
 }

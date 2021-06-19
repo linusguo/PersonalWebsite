@@ -1,6 +1,6 @@
 # Personal website-Yusheng Guo
 
-## Website deployed on Heroku:
+**Website deployed on Heroku:**
 <https://personal-website-yusheng.herokuapp.com/index.html>
 
 Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2021.
@@ -36,7 +36,7 @@ Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2
 
 ## Interactive components
 
-* As mentioned before, when the mouse is hovering on the navbar, the corresponding link will be highlighted. And it will go back to normal if the mouse moves away from the link. I implemented this functionality using `JQuery`.
+* As mentioned before, when the mouse is hovering on the navbar, the corresponding link will be highlighted. And it will go back to normal if the mouse moves away from the link. I implemented this functionality by using `hover` in `JQuery`.
 
 ![navbar_screenshot](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/navbar_highlight.png?raw=true)
 
@@ -44,7 +44,7 @@ Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2
 
 ![publication_highlight](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/readmore_highlight.png?raw=true)
 
-* The navbar can be to compact form due to the narrow browser size. The full navbar will pop up if people click the menu button (defaulted as three horizontal lines in `CSS`).
+* The navbar can be to compact form due to the narrow browser size. The full navbar will pop up if people click the menu button (defaulted as three horizontal lines in `CSS`). I implemented this by using `click` in `Jquery`.
 
 ![mobile_navbar](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_navbar.png?raw=true)
 

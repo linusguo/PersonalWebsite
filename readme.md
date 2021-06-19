@@ -68,6 +68,4 @@ Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2
 
 * I included a favicon!
 
-<center>
 ![favicon](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/favicon.png?raw=true)
-</center>

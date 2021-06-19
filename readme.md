@@ -24,12 +24,28 @@ Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2
 
 ### The navbar
 
-* I used the `CSS` styled navbar as the navigation tool throughout this whole website, with a little interactive flavor of `JQuery`. The links will be highlighted when the mouse is hovering above them(discussed in later sections).
+* I used the `CSS` styled navbar as the navigation tool throughout this whole website, with a little interactive flavor of `JQuery`. The links will be highlighted when the mouse is hovering above them (discussed in later sections).
 
 ![navbar_screenshot](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/navbar_highlight.png?raw=true)
 
 * This navbar has six links, including `Home`, `About me`, `Publication`, `Instagram`, `LinkedIn`, and `Email`. For cliking on the first three internal links, it will take the visitors to the corresponding page in the same browser tab. In contrast, the `Instagram` and `LinkedIn` will be opened in a new tab. The `Email` link allows people sending an email to me using their default email app.
 
-* This navbar is responsive to browser size. It will shirink to a more compact form if the browser width is below `1050px`. This accomodation to devices with smaller screen will be discussed later in the `CSS media query` section.
+* This navbar is responsive to browser size. It will shirink to a more compact form if the browser width is below `1050px`. This accomodation to devices with smaller screen will be discussed later in the `Responsiveness` section.
+
+![mobile_index](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_index.png?raw=true)
+
+### Interactive components
+
+* As mentioned before, when the mouse is hovering on the navbar, the corresponding link will be highlighted. And it will go back to normal if the mouse moves away from the link. I implemented this functionality using `JQuery`.
+
+![navbar_screenshot](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/navbar_highlight.png?raw=true)
+
+* Similarly to the navbar, if the mouse is hovering on the `Read more` at the end of each section on the `Publication` page, it will be highlighted as well.
+
+![publication_highlight](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/readmore_highlight.png?raw=true)
+
+* The navbar can be to compact form due to the narrow browser size. The full navbar will pop up if people click the menu button (defaulted as three horizontal lines in `CSS`).
 
 ![mobile_navbar](https://github.ccs.neu.edu/NEU-CS5610-SU21/PersonalWebsite-YushengGuo/blob/master/screenshots/mobile_navbar.png?raw=true)
+
+### Responsiveness

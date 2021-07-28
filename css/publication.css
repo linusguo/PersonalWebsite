@@ -1,0 +1,65 @@
+/* Style for the cover images */
+img {
+  width: 400px;
+  height: auto;
+  float: right;
+}
+/* Style for the table */
+#table_pub {
+  margin-bottom: 40px;
+}
+/* Style for each section */
+.content {
+  width: 70%;
+}
+.title {
+  font-weight: bolder;
+}
+.intro {
+  text-align: justify;
+}
+.link a{
+  text-decoration: none;
+  color: white;
+}
+/* Accomodation for smaller screen */
+/* Hide mobile version table for larger screen */
+@media only screen and (min-width: 1050px) {
+  .mobile_content {
+    display: none;
+  }
+  .intro {
+    padding-right: 15px;
+  }
+}
+/* Hide full size table for smaller screen */
+@media only screen and (max-width: 1050px) {
+  .large {
+    display: none;
+  }
+  /* Set the margin for smaller screen */
+  .container_div {
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+  /* Style for content on smaller screen */
+  .mobile_content {
+    font-size: 0.7em;
+    margin-bottom: 80px;
+  }
+  .title {
+    font-size: 1.1em;
+  }
+  .link {
+    text-align: center;
+    font-weight: bolder;
+  }
+  .mobile_pub {
+    padding: 15px;
+  }
+  .intro {
+    padding-right: 0;
+  }
+}

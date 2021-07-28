@@ -1,0 +1,77 @@
+/* Style for the profile image */
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+/* Align the profile image at the center */
+.aligned {
+  text-align: center;
+}
+/* Style for the table */
+#table {
+  width: 100%;
+  margin-bottom: 100px;
+}
+/* Width for the right column */
+.narrow {
+  width: 40%
+}
+/* Style for each section in the table */
+.intro {
+  text-align: justify;
+}
+#education {
+  column-span: 2;
+  font-size: 2em;
+}
+.degree {
+  column-span: 2;
+  font-weight: bolder;
+}
+.period {
+  padding-left: 150px;
+}
+/* Height of the blank rows */
+.blank {
+  height: 40px;
+}
+.blank1 {
+  height: 20px;
+}
+.blank2 {
+  height: 10px;
+}
+/* Accomodation for smaller screen */
+/* Hide mobile version table for larger screen */
+@media only screen and (min-width: 1050px) {
+  .mobile_content {
+    display: none;
+  }
+}
+/* Hide full size table for smaller screen */
+@media only screen and (max-width: 1050px) {
+  .large {
+    display: none;
+  }
+  /* Set the margin for smaller screen */
+  .container_div {
+    margin: 15px;
+  }
+  /* Resize the profile image */
+  img {
+    width: 150px;
+  }
+  /* Style for contents on smaller screen */
+  .mobile_content {
+    font-size: 0.7em;
+    margin-bottom: 100px;
+  }
+  #mobile_education {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  .degree {
+    font-weight: bolder;
+  }
+}

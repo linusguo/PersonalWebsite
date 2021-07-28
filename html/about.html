@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About me</title>
+    <!-- Set up the initial scale for the webpage -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Import the stylesheets -->
+    <link href="../css/index.css" rel="stylesheet">
+    <link href="../css/about.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
+    <!-- Import Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- Import JQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Import the navbar script -->
+    <script src="/js/navbar_script.js"></script>
+    <!-- Import the favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="../img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="container_div">
+      <div class="large">
+        <!-- Full size table -->
+        <table id="table">
+          <tr>
+            <td>
+              <p class="intro">
+                Yusheng is a graduate student in his second semester in the Align program at Khoury
+                College of Computer Sciences. Before joining Khoury, Yusheng was a graduate resercher
+                at Louisiana State University. His research areas include surface chemistry, colloidal
+                and material science.
+              </p>
+              <p class="intro">
+                Yusheng moved to the US since 2015 from China. He is now living in Seattle.
+              </p>
+            </td>
+            <td class="aligned narrow">
+              <img id="personal_img" src="/img/personal_copy.jpg" alt="personal_img">
+            </td>
+          </tr>
+          <tr class="blank"></tr>
+          <tr>
+            <td id="education">Education</td>
+          </tr>
+          <tr class="blank1"></tr>
+          <tr>
+            <td class="degree">Master of Science in Computer Science</td>
+          </tr>
+          <tr>
+            <td>Northeastern University</td>
+            <td class="period">Jan 2021 - Now</td>
+          </tr>
+          <tr class="blank1"></tr>
+          <tr>
+            <td class="degree">Master of Science in Chemical Engineering</td>
+          </tr>
+          <tr>
+            <td>Lousiana State University</td>
+            <td class="period">Aug 2017 - Dec 2020</td>
+          </tr>
+          <tr class="blank1"></tr>
+          <tr>
+            <td class="degree">Master of Science in Chemical and Biochemical Engineering</td>
+          </tr>
+          <tr>
+            <td>Rutgers, The State University of New Jersey</td>
+            <td class="period">Sep 2015, May 2017</td>
+          </tr>
+          <tr class="blank1"></tr>
+          <tr>
+            <td class="degree">Bachelor of Engineering in Chemical Engineering and Technology</td>
+          </tr>
+          <tr>
+            <td>Dalian University of Technology</td>
+            <td class="period">Sep 2010 - Jun 2014</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="mobile_content">
+        <!-- Table for smaller screen -->
+        <table id="mobile_table">
+          <tr class="aligned">
+            <td>
+              <img id="personal_img_mobile" src="/img/personal_copy.jpg" alt="personal_img">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="intro">
+                Yusheng is a graduate student in his second semester in the Align program at Khoury
+                College of Computer Sciences. Before joining Khoury, Yusheng was a graduate resercher
+                at Louisiana State University. His research areas include surface chemistry, colloidal
+                and material science.
+              </p>
+              <p class="intro">
+                Yusheng moved to the US since 2015 from China. He is now living in Seattle.
+              </p>
+            </td>
+          </tr>
+          <tr class="blank2"></tr>
+          <tr>
+            <td id="mobile_education">
+              Education
+            </td>
+          </tr>
+          <tr class="blank2"></tr>
+          <tr>
+            <td class="degree">Master of Science in Computer Science</td>
+          </tr>
+          <tr>
+            <td>Northeastern University</td>
+          </tr>
+          <tr class="blank2"></tr>
+          <tr>
+            <td class="degree">Master of Science in Chemical Engineering</td>
+          </tr>
+          <tr>
+            <td>Lousiana State University</td>
+          </tr>
+          <tr class="blank2"></tr>
+          <tr>
+            <td class="degree">Master of Science in Chemical and Biochemical Engineering</td>
+          </tr>
+          <tr>
+            <td>Rutgers University</td>
+          </tr>
+          <tr class="blank2"></tr>
+          <tr>
+            <td class="degree">Bachelor of Engineering in Chemical Engineering and Technology</td>
+          </tr>
+          <tr>
+            <td>Dalian University of Technology</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+    <!-- The navbar -->
+    <div class="navbar" id="navbar">
+      <a class="navbar_large" href="../index.html">Home</a>
+      <a class="navbar_large" href="about.html">About me</a>
+      <a class="navbar_large" href="publication.html">Publication</a>
+      <a class="navbar_large" href="https://www.instagram.com/st_linus/" target="_blank">Instagram</a>
+      <a class="navbar_large" href="https://www.linkedin.com/in/yusheng-guo-519494104/" target="_blank">LinkedIn</a>
+      <a class="navbar_large" href="mailto:guo.yus@northeastern.edu">Email</a>
+      <a class="mobile">&#9776</a>
+    </div>
+  </body>
+</html>

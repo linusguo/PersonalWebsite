@@ -3,8 +3,6 @@
 **Website deployed on Heroku:**
 <https://personal-website-yusheng.herokuapp.com/index.html>
 
-!!Last update: June 2022!!
-
 Welcome to my website! This site is as part of the Project 1 in CS5610, summer 2021.
 
 ## Website structure, contents and `HTML table`

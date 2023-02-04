@@ -69,11 +69,13 @@ img {
     text-decoration: underline;
     font-size: 1em;
   }
+  .intro {
+    padding: 0;
+  }
   .mobile_pub {
     padding: 15px;
   }
   .intro {
-    padding-left: 15px;
     text-align: left;
   }
 }

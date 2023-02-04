@@ -69,6 +69,7 @@ img {
     display: none;
   }
   .copyright_div {
+    font-size: 0.6em;
     bottom: 60px;
   }
 }

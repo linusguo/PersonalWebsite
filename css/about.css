@@ -26,8 +26,13 @@ img {
   font-size: 2em;
 }
 .degree {
+  padding-left: 15px;
   column-span: 2;
   font-weight: bolder;
+}
+.school {
+  padding-left: 15px;
+  column-span: 2;
 }
 .period {
   padding-left: 150px;
@@ -71,7 +76,14 @@ img {
     font-size: 1.8em;
     text-align: center;
   }
-  .degree {
-    font-weight: bolder;
+  .mobile_degree {
+    font-weight:bolder;
+    text-align: center;
+    padding-left: 0;
   }
+  .mobile_school {
+    text-align: center;
+    padding-left: 0;
+  }
+
 }

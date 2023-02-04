@@ -13,13 +13,16 @@ img {
   width: 70%;
 }
 .title {
-  font-weight: bolder;
+  font-size: 1.1em;
+  font-weight:bolder;
 }
 .intro {
   text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .link a{
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
 }
 /* Accomodation for smaller screen */
@@ -28,8 +31,12 @@ img {
   .mobile_content {
     display: none;
   }
+  .title {
+    padding-right: 20px;
+  }
   .intro {
-    padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
   }
 }
 /* Hide full size table for smaller screen */
@@ -51,15 +58,18 @@ img {
   }
   .title {
     font-size: 1.1em;
+    font-weight: bolder;
+    padding-left: 15px;
   }
   .link {
     text-align: center;
-    font-weight: bolder;
+    text-decoration: underline;
   }
   .mobile_pub {
     padding: 15px;
   }
   .intro {
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

@@ -6,7 +6,7 @@ $(document).ready(function () {
     },
     // Remove highlight when the mouse moves away
     function() {
-      $(this).css("background-color", "black");
+      $(this).css("background-color", "rgb(30,30,30)");
       $(this).css("color", "white");
     }
   );

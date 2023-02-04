@@ -37,6 +37,9 @@ img {
   left: 20%;
   right: 20%;
 }
+.copyright_div a {
+  color: rgb(100, 100, 100);
+}
 #welcome {
   margin: 0px 0px;
 }

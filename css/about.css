@@ -4,19 +4,19 @@ img {
   height: auto;
   border-radius: 50%;
 }
-/* Align the profile image at the center */
-.aligned {
-  text-align: center;
-}
 /* Style for the table */
-#table {
+.table {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 /* Width for the right column */
 .narrow {
   padding-top: 40px;
   width: 30%
+}
+/* Align the profile image at the center */
+.aligned {
+  text-align: center;
 }
 /* Style for each section in the table */
 .intro {
@@ -24,44 +24,35 @@ img {
   padding-right: 40px;
   text-align: left;
 }
-#education {
-  column-span: 2;
+.education {
+  padding-top: 0.8em;
+  padding-bottom: 0.4em;
   font-size: 2em;
+  font-weight: bolder;
 }
 .degree {
-  column-span: 2;
   font-weight: bolder;
 }
 .school {
   padding-left: 15px;
-  column-span: 2;
+  padding-bottom: 0.8em;
 }
 .period {
   padding-left: 60px;
 }
-/* Height of the blank rows */
-.blank {
-  height: 40px;
-}
-.blank1 {
-  height: 20px;
-}
-.blank2 {
-  height: 10px;
-}
-/* Accomodation for smaller screen */
+
 /* Hide mobile version table for larger screen */
 @media only screen and (min-width: 1050px) {
   .mobile_content {
     display: none;
   }
 }
+
 /* Hide full size table for smaller screen */
 @media only screen and (max-width: 1050px) {
   .large {
     display: none;
   }
-  /* Set the margin for smaller screen */
   .container_div {
     margin: 15px;
   }
@@ -72,11 +63,17 @@ img {
   /* Style for contents on smaller screen */
   .mobile_content {
     font-size: 0.7em;
-    margin-bottom: 100px;;
-    padding: 15px
+    margin-bottom: 80px;;
   }
-  #mobile_education {
+  .mobile_intro {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .mobile_education {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
     font-size: 1.8em;
+    font-weight: bolder;
     text-align: center;
   }
   .mobile_degree {
@@ -84,6 +81,7 @@ img {
     text-align: center;
   }
   .mobile_school {
+    padding-bottom: 0.8em;
     text-align: center;
   }
 }

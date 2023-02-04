@@ -17,7 +17,7 @@ img {
   font-weight:bolder;
 }
 .intro {
-  text-align: justify;
+  text-align: left;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -71,5 +71,6 @@ img {
   .intro {
     padding-left: 15px;
     padding-right: 15px;
+    text-align: left;
   }
 }

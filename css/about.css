@@ -15,11 +15,14 @@ img {
 }
 /* Width for the right column */
 .narrow {
-  width: 40%
+  padding-top: 40px;
+  width: 30%
 }
 /* Style for each section in the table */
 .intro {
-  text-align: justify;
+  margin-top: 20px;
+  padding-right: 40px;
+  text-align: left;
 }
 #education {
   column-span: 2;
@@ -34,7 +37,7 @@ img {
   column-span: 2;
 }
 .period {
-  padding-left: 150px;
+  padding-left: 60px;
 }
 /* Height of the blank rows */
 .blank {
@@ -84,5 +87,4 @@ img {
     text-align: center;
     padding-left: 0;
   }
-
 }

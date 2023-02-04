@@ -5,12 +5,13 @@ img {
     float: left;
   }
 /* Style for the table */
-  #table_pub {
+  #table_band {
     margin-bottom: 40px;
   }
   /* Style for each section */
   .content {
     width: 70%;
+    margin-left: 80px;
   }
   .title {
     margin-left: 80px;
@@ -54,29 +55,31 @@ img {
     }
     /* Style for content on smaller screen */
     .mobile_content {
-        font-size: 0.7em;
+      margin: 0;
+      font-size: 0.7em;
       margin-bottom: 80px;
       text-align: center;
     }
     .mobile_band {
-        margin-left: 15px;
-        margin-right: 15px;
-        padding-bottom: 20px;
-        padding-left: 15px;
-        padding-right: 15px;
-      }
+      padding: 15px;
+    }
+    .content {
+      width: 10%;
+    }
     .title {
-        margin-left: 0;
+      margin-left: 0;
+      margin-top: 0;
+      margin-bottom: 0.5em;
       font-size: 1.8em;
       font-weight: bolder;
     }
     .intro {
-        margin-left: 0;
-        text-align: center;
+      margin-left: 0;
+      text-align: center;
     }
     .link_p {
-        margin-left: 0;
-        text-align: center;
+      margin-left: 0;
+      text-align: center;
     }
     .link {
       text-align: center;

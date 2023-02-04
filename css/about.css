@@ -72,7 +72,8 @@ img {
   /* Style for contents on smaller screen */
   .mobile_content {
     font-size: 0.7em;
-    margin-bottom: 100px;
+    margin-bottom: 100px;;
+    padding: 15px
   }
   #mobile_education {
     font-size: 1.8em;
@@ -81,10 +82,8 @@ img {
   .mobile_degree {
     font-weight:bolder;
     text-align: center;
-    padding-left: 0;
   }
   .mobile_school {
     text-align: center;
-    padding-left: 0;
   }
 }

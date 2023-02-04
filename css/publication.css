@@ -58,11 +58,11 @@ img {
   .mobile_content {
     font-size: 0.7em;
     margin-bottom: 80px;
+    padding: 15px;
   }
   .title {
     font-size: 1.2em;
     font-weight: bolder;
-    padding-left: 15px;
   }
   .link {
     text-align: center;
@@ -74,7 +74,6 @@ img {
   }
   .intro {
     padding-left: 15px;
-    padding-right: 15px;
     text-align: left;
   }
 }

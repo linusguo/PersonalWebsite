@@ -5,7 +5,7 @@ $(document).ready(function () {
       $(this).css("color", "black");
     }, function() {
       $(this).css("background-color", "black");
-      $(this).css("color", "white");
+      $(this).css("color", "rgb(100,100,100)");
     }
   );
 });

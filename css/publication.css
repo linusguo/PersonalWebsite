@@ -21,9 +21,12 @@ img {
   padding-left: 20px;
   padding-right: 20px;
 }
+.link{
+  color: rgb(100, 100, 100);
+  font-size: 0.9em;
+}
 .link a{
   text-decoration: underline;
-  color: white;
 }
 /* Accomodation for smaller screen */
 /* Hide mobile version table for larger screen */
@@ -64,6 +67,7 @@ img {
   .link {
     text-align: center;
     text-decoration: underline;
+    font-size: 1em;
   }
   .mobile_pub {
     padding: 15px;

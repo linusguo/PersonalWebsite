@@ -34,11 +34,16 @@ img {
   font-weight: bolder;
 }
 .school {
+  width: 70%;
   padding-left: 15px;
   padding-bottom: 0.8em;
 }
 .period {
-  padding-left: 60px;
+  width: 30%;
+  text-align: right;
+  white-space: nowrap;
+  padding-left: 0px;
+  padding-right: 15px;
 }
 
 /* Hide mobile version table for larger screen */
